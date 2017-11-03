@@ -35,7 +35,6 @@ WeChatShare.install = ((Vue,options)=>{
                 'onMenuShareQQ','onMenuShareQZone'
             ]
         });
-
     }
     /**
      * 分享到微信、朋友圈、QQ、微博等平台

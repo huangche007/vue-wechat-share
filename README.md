@@ -12,10 +12,11 @@ You can import the whole package or each module individual.
 	import VueWeChatShare from 'vue-wechat-share'
 	Vue.use(VueWeChatShare)
 
+
 ## Methods
 - $reqSignByUrl(url,cb):initializing URL,if null or "",there will a default value(window.location.href)
 
-| Params        | Type           | Require  | Dec  |
+| Params        | Type           | Require  | Desc  |
 | ------------- |:-------------:| -----:|-----:|
 | url      | String | No |signed url |
 | cb      | method      |   Yes |The callback through the current URL to get the signature information |
@@ -23,7 +24,7 @@ You can import the whole package or each module individual.
 - $initWXConfig(signObj,isDebug):initialize weChat sdk to share the required configuration items
 
 
-| Params        | Type           | Require  | Dec  |
+| Params        | Type           | Require  | Desc  |
 | ------------- |:-------------:| -----:|-----:|
 | signObj      | Object | Yes | This object contains four attributes(appId、timestamp、nonceStr、signature)|
 | isDebug      | Boolean      |   No |Whether to open debug debugging |
@@ -31,9 +32,10 @@ You can import the whole package or each module individual.
 - $shareWeChat(shareParams):Share to weChat, the circle of friends,  QQ and micro-blog platform
 
 
-| Params        | Type           | Require  | Dec  |
+| Params        | Type           | Require  | Desc  |
 | ------------- |:-------------:| -----:|-----:|
 | shareParams      | Object | Yes | This object contains four attributes(title、link、image、abstract)|
 
+	
 
 	

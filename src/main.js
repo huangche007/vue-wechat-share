@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import WeChatShare from './lib/wechatSocialShare'
+import WeChatShare from 'vue-wechat-share'
 Vue.use(WeChatShare)
 new Vue({
   el: '#app',

@@ -24,6 +24,7 @@
     "file-loader": "^1.1.4",
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^2.4.4",
+    "vue-wechat-share": "^1.0.0",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1",
     "weixin-js-sdk": "^1.2.0"
