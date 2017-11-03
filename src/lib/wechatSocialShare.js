@@ -38,7 +38,7 @@ WeChatShare.install = ((Vue,options)=>{
 
     }
     /**
-     * 分享到微信、朋友圈、QQ、微博等平台的内容
+     * 分享到微信、朋友圈、QQ、微博等平台
      * @param shareParams(title、link、image、abstract)
      */
     Vue.prototype.$shareWeChat = function (shareParams) {
